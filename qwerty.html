@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+
+{% block head %}
+{% endblock %}
+
+{% block body %}
+<div class = "content">
+	<hl> Tasks </hl>
+	<table>
+			<tr>
+					<th>TASK</th>
+					<th>DATE</th>
+					<th>ACTION</th>
+			</tr>
+			<tr>
+					<td>TASK</td>
+					<td>DATE</td>
+					<td>ACTION</td>
+			</tr>
+	</table>
+</div>
+
+<div class = "content">
+			<form action='/' method="POST">
+					<input type="text" name="content" id="content">
+					<input type="symbit" value="Add tsk">
+			</form>
+</div>
+{% endblock %}
